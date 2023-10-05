@@ -1,0 +1,61 @@
+/* BinInput.css */
+
+/* Center the entire component in the middle of the page */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures it takes up at least the full viewport height */
+  }
+  
+  /* Style the search bar container */
+  .search-bar-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Style the search bar input */
+  .search-bar {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background: linear-gradient(to bottom, #ff8000, #ffaf40);
+    width: 300px; /* Increase input width as needed */
+  }
+  
+  /* Style the bold placeholder text */
+  .search-bar::placeholder {
+    font-weight: bold;
+  }
+  
+  /* Style the search button */
+  .search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style the error box */
+  .error-box {
+    color: #ff0000;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Style the result box */
+  .result-box {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+  }
+  

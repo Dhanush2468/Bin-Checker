@@ -1,0 +1,54 @@
+/* BinResult.css */
+
+/* Response Box */
+.response-box {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 1000px; /* Fixed width for response box */
+    margin: 0 auto; /* Center align response box */
+}
+
+/* Personal Information Box */
+.personal-info-box {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 98%; /* Full width for personal info box */
+}
+
+/* Country Information Box */
+.country-info-box {
+    background-color: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 96%; /* Full width for country info box */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    table-layout: fixed; /* Fix table width */
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px; /* Increase padding to make the table cells larger */
+    text-align: left;
+}
+
+/* Dividing Line */
+.response-box::before {
+    content: '';
+    display: block;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
